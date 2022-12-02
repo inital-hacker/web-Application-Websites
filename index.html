@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+
+    <title>Weather App JavaScript</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+  
+
+    <link href="//cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+
+
+</head>
+
+<body>
+    <div class="weather" class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <input type="search" list="suggestions" class="weather_search" placeholder="Enter City Name" />
+                <datalist id="suggestions"></datalist>
+            </div>
+        </div>
+
+        <div class="weather_today" class="row">
+            <div class="weather_details" class=" col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <h2 class="weather_city class=" h2 ">City</h2>
+                <p class="weather_day ">Day</p>
+                <div class="weather_current ">
+                    <p class="weather_indicator weather_indicator--humidity ">
+                        <span class="value ">50</span>%
+                    </p>
+                    <p class="weather_indicator weather_indicator--wind ">
+                        <span class="value ">West, 5</span>m/s
+                    </p>
+                    <p class="weather_indicator weather_indicator--pressure ">
+                        <span class="value ">1050</span>hPa
+                    </p>
+                </div>
+            </div>
+
+            <div class=" col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
+                <img src="images/clear-sky.png " alt="Clear sky " class="weather_image "  class="img-fluid " >
+            </div>
+            <div class="weather_temperature " class="col-lg-4 col-md-4 col-sm-6 col-xs-12 ">
+                <span class="value ">+25</span> &deg;C
+            </div>
+        </div>
+
+        <div class="weather_forecast " class="row " >
+        <div class=" col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-12 col-xs-12 ">
+            <div class="weather_forecast_item " class="card ">
+                <div class="card-body ">
+                <img src="images/clear-sky.png " alt="Clear sky " class="weather_forecast_icon "  class="card-img-top ">
+                <h3 class="weather_forecast_day " class="card-title ">Day</h3>
+                <p class="weather_forecast_temperature " class="card-subtitle ">
+                    <span class="value ">+25</span> &deg;C
+                </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-12 col-xs-12 ">
+            <div class="weather_forecast_item " class="card ">
+                <div class="card-body ">
+                <img src="images/clear-sky.png " alt="Clear sky " class="weather_forecast_icon "  class="card-img-top ">
+                <h3 class="weather_forecast_day " class="card-title ">Day</h3>
+                <p class="weather_forecast_temperature " class="card-subtitle ">
+                    <span class="value ">+25</span> &deg;C
+                </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class=" col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-12 col-xs-12 ">
+            <div class="weather_forecast_item " class="card ">
+                <div class="card-body ">
+                <img src="images/clear-sky.png " alt="Clear sky " class="weather_forecast_icon "  class="card-img-top ">
+                <h3 class="weather_forecast_day " class="card-title ">Day</h3>
+                <p class="weather_forecast_temperature " class="card-subtitle ">
+                    <span class="value ">+25</span> &deg;C
+                </p>
+                </div>
+            </div>
+        </div>
+
+        <div class=" col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-12 col-xs-12 ">
+            <div class="weather_forecast_item " class="card ">
+                <div class="card-body ">
+                <img src="images/clear-sky.png " alt="Clear sky " class="weather_forecast_icon "  class="card-img-top ">
+                <h3 class="weather_forecast_day " class="card-title ">Day</h3>
+                <p class="weather_forecast_temperature " class="card-subtitle ">
+                    <span class="value ">+25</span> &deg;C
+                </p>
+                </div>
+            </div>
+        </div>
+
+        <div class=" col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-12 col-xs-12 ">
+            <div class="weather_forecast_item " class="card ">
+                <div class="card-body ">
+                <img src="images/clear-sky.png " alt="Clear sky " class="weather_forecast_icon "  class="card-img-top ">
+                <h3 class="weather_forecast_day " class="card-title ">Day</h3>
+                <p class="weather_forecast_temperature " class="card-subtitle ">
+                    <span class="value ">+25</span> &deg;C
+                </p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <script src="js/script.js "></script>
+
+
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js "></script>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</html>
